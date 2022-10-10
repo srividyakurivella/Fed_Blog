@@ -1,22 +1,25 @@
 import React from "react";
+import about from "./about.js";
 
 const Navbar = () => {
   return (
-    <div className="nav-menu">
+    <div className="menu">
       <div className="logo">
-        <strong>
-          <a href="">
-            <img src="images/logo.png" alt="Sam Jarvis logo" />
-          </a>
-        </strong>
+        
+        <a href="" >  
+          REACT  
+        </a>
+          
+      
       </div>
-      <div className="menu">
+      <div className="nav-menu">
         <ul>
           <li>
             <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="#about" >ABOUT</a>
+         
           </li>
           <li>
             <a href="#work">PORTFOLIO</a>

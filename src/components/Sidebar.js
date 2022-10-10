@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import about from './about';
 
 const Sidebar = () => {
   return (
@@ -9,7 +10,7 @@ const Sidebar = () => {
             <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="about">ABOUT</a>
           </li>
           <li>
             <a href="#work">PORTFOLIO</a>
